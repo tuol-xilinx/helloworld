@@ -7,7 +7,7 @@
         "Uncategorized"
     ],
     "machines": [
-        "*"
+        "nx5"
     ],
     "vault-types": [
         "FILE",
@@ -18,7 +18,7 @@
     "commands": {
         "Batch": {
             "path": "/bin/bash",
-            "interactive": false,
+            "interactive": true,
             "name": "Batch",
             "description": "Run a batch command using /bin/bash.  The output may be monitored directly in your web browser.",
             "parameters": {
